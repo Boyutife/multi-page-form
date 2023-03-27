@@ -13,11 +13,23 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
+.main_con {
+  width: 60%;
+}
 
 aside{
   background: url(/assets/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   height: 33.8rem;
   width: 12.8rem;
 }
+
+.bills div{
+  height: 12rem;
+}
+
+
+
+
+
+
 
