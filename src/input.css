@@ -27,6 +27,22 @@ aside{
   height: 12rem;
 }
 
+.add_ons{
+  display: grid;
+  grid-template-columns:  3fr 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+
+.add_ons input,
+.add_ons div{
+  justify-self: flex-start;
+}
+
+.add_ons h3{justify-self: end;}
+
+
+
 
 
 

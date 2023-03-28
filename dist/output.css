@@ -566,6 +566,10 @@ video {
   margin-left: 0.5rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .ml-8 {
   margin-left: 2rem;
 }
@@ -580,6 +584,18 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-20 {
@@ -600,22 +616,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .flex {
@@ -684,6 +684,10 @@ video {
   width: 0.625rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -729,12 +733,12 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
+.justify-around {
+  justify-content: space-around;
 }
 
-.justify-self-start {
-  justify-self: start;
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .rounded {
@@ -749,6 +753,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -759,6 +767,20 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-PurplishBlue {
+  --tw-border-opacity: 1;
+  border-color: hsl(243 100% 62% / var(--tw-border-opacity));
+}
+
+.border-LightGray {
+  --tw-border-opacity: 1;
+  border-color: hsl(229 24% 87% / var(--tw-border-opacity));
 }
 
 .bg-LightBlue {
@@ -793,16 +815,12 @@ video {
   padding: 0.75rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-8 {
   padding: 2rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .pl-5 {
@@ -813,17 +831,12 @@ video {
   padding-right: 3rem;
 }
 
-.pr-8 {
-  padding-right: 2rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-center {
+  text-align: center;
 }
 
 .text-3xl {
@@ -841,12 +854,21 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-extralight {
   font-weight: 200;
 }
 
 .font-light {
   font-weight: 300;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -863,6 +885,11 @@ video {
   color: hsl(213 96% 18% / var(--tw-text-opacity));
 }
 
+.text-PurplishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(243 100% 62% / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -871,6 +898,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 @font-face {
@@ -898,6 +929,24 @@ aside{
 .bills div{
   height: 12rem;
 }
+
+.add_ons{
+  display: grid;
+  grid-template-columns:  3fr 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+
+.add_ons input,
+.add_ons div{
+  justify-self: flex-start;
+}
+
+.add_ons h3{
+  justify-self: end;
+}
+
+
 
 
 
