@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/assets/images/favicon-32x32.png" type="image/png">
-  <link href="output.css" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
   <title>Select Plan</title>
 </head>
 <body class="bg-Magnolia flex justify-center items-center h-screen ">
@@ -48,52 +48,60 @@
       <section class="container pt-4 pr-12 pl-5 flex flex-col mb-5 ml-8 justify-between">
           
             <div>
-                  <h1 class="text-3xl mb-2 text-MarineBlue ">Finishing up</h1>
-                 <p class=" text-LightGray font-extralight text-sm">Double-check everything looks OK before confirming.</p>
+                  <h1 class="text-3xl mb-2 text-MarineBlue ">Pick add-ons</h1>
+                 <p class=" text-LightGray font-extralight text-sm">Add-ons help emhance your gaming experience</p>
             </div>
 
-           <div class="container flex flex-col bg-Magnolia rounded-md p-4  items-center">
-                    <div class=" container p-4  border-b border-LightGray flex items-center justify-between ">
-                        <div>
-                             <h2 class="text-MarineBlue">Arcade (Monthly)</h2>
-                             <a class=" text-LightGray font-extralight text-sm underline">Change</a>
+           <div class="container flex flex-col  items-center">
+            
+                      <div class="add_ons container p-4 rounded-lg border  ">
+                          <div class="flex items-center ">
+                            <input class=" h-4 w-4 check " type="checkbox">
+                            <div class="flex flex-col ml-6">
+                              <h2 class="text-MarineBlue">Online service</h2>
+                              <p class=" text-LightGray font-extralight text-sm">Access to mutiplayer games</p>
+                            </div>
                           </div>
-                          <h3 class=" text-MarineBlue font-extralight text-xl">+$9/mo</h3>
-                     </div>
-                     <div class=" container p-4 rounded-lg  flex items-center justify-between ">
-                          <div>
-                            <a class=" text-LightGray font-extralight text-sm ">Online service</a>
-                          </div>
-                          <h3 class=" text-MarineBlue font-extralight text-sm">+$1/mo</h3>
-                       </div>
-                     <div class=" container p-4 rounded-lg  flex items-center justify-between ">
-                          <div>
-                            <a class=" text-LightGray font-extralight text-sm ">Larger Storage</a>
-                          </div>
-                          <h3 class=" text-MarineBlue font-extralight text-sm">+$2/mo</h3>
-                       </div>
-          </div>
+                        <h3 class=" text-PurplishBlue font-extralight text-sm">+$1/mo</h3>
+                      </div>
 
-          <div class=" container p-4 rounded-lg  flex items-center justify-between ">
-            <div>
-              <a class=" text-LightGray font-extralight text-sm ">Total (per month)</a>
-            </div>
-            <h3 class=" text-PurplishBlue font-extralight text-xl">+$12/mo</h3>
+                      <div class="add_ons container p-4 rounded-lg border mt-8 ">
+                          <div class="flex items-center">
+                            <input class="h-4 w-4 check" type="checkbox">
+                            <div class="flex flex-col ml-6">
+                              <h2 class="text-MarineBlue">Larger Storage</h2>
+                              <p class=" text-LightGray font-extralight text-sm">Extra 1TB of cloud save</p>
+                            </div>
+                          </div>
+                        <h3 class=" text-PurplishBlue font-extralight text-sm">+$2/mo</h3>
+                      </div>
+
+                      <div class="add_ons container p-4 rounded-lg border  mt-8">
+                          <div class="flex items-center">
+                            <input class="h-4 w-4 check" type="checkbox">
+                            <div class="flex flex-col ml-6">
+                              <h2 class="text-MarineBlue">Customizable profile</h2>
+                              <p class=" text-LightGray font-extralight text-sm"> Custom theme on your profile</p>
+                            </div>
+                          </div>
+                        <h3 class=" text-PurplishBlue font-extralight text-sm">+$2/mo</h3>
+                      </div>
+
           </div>
 
           <!-- buttons -->
       <div class="container flex flex-row-reverse justify-between mt-10">
         <button class="btn text-white bg-MarineBlue rounded p-2  w-1/4  ">
-          <a href="./thankyou.html">Confirm</a>
+          <a href="./summary.html">Next</a>
         </button>
 
         <button class="btn text-LightGray p-2  w-1/4  ">
-          <a href="./pickaddons.html">Go back</a>
+          <a href="./selectplan.html">Go back</a>
         </button>
       </div>
 
       </section>
     </main>
-    <script src="summary.js"></script>
+    <script src="./addons.js"></script>
 </body>
 </html>
