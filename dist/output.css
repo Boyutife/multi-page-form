@@ -894,9 +894,9 @@ video {
 @font-face {
   font-family: 'Ubuntu';
 
-  src: url('../../assets/fonts/Ubuntu-Bold.ttf') format('truetype'),
-       url('../../assets/fonts/Ubuntu-Medium.ttf') format('truetype'),
-       url('../../assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Ubuntu-Bold.ttf') format('truetype'),
+       url('../assets/fonts/Ubuntu-Medium.ttf') format('truetype'),
+       url('../assets/fonts/Ubuntu-Regular.ttf') format('truetype');
 }
 
 body {
@@ -908,7 +908,7 @@ body {
 }
 
 aside{
-  background: url(../../assets/images/bg-sidebar-desktop.svg) no-repeat center/cover;
+  background: url(../assets/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   height: 33.8rem;
   width: 12.8rem;
 }
