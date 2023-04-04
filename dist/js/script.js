@@ -18,6 +18,8 @@ toggleBill.addEventListener('click', () => {
   if(toggleBill.classList.contains('justify-end')){
      selectPlan.href = 'pickaddonsyr.html';
      console.log(selectPlan.href);
+  } else {
+    selectPlan.href = 'pickaddons.html';
   }
      
 });
