@@ -14,6 +14,12 @@ toggleBill.addEventListener('click', () => {
   yearly.forEach(e => {
     e.classList.toggle('hidden');
   });
+  const selectPlan = document.querySelector('.selectplanref');
+  if(toggleBill.classList.contains('justify-end')){
+     selectPlan.href = 'pickaddonsyr.html';
+     console.log(selectPlan.href);
+  }
+     
 });
 
 
